@@ -1,71 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <title>Page Title</title>
+    <title>Layout 1</title>
     <link rel="stylesheet" href="./syles.css">
-
-    <nav>
-        <ul>
-          <li><a href="#">Layout 2</a></li>  
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-
-
 </head>
-<body>
-    <main>
-        <section>
-            <div class="container">
-                <h1>Sample Heading</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores sunt alias commodi illum? Beatae omnis magni sunt velit voluptatum, labore libero fugiat aliquam quam aspernatur illum animi repellendus? Excepturi, inventore.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores facere accusantium beatae cum, excepturi, molestias nulla vel dolores ut repudiandae vero sed nihil, nesciunt quia fuga ipsa sint minima.
-                </p>
-                <div class="cta">
-                  <a href="#" class="button">Learn More</a>
-                </div>
-              </div>
-        </section>
 
-       <section>
-        <h2 id="heading">Latest Features</h2>
-        <div class="grid-container">
-          <div class="grid-item">
-            <img src="./assests/image.jpg" alt="Feature 1">
-            <h2>Feature Label</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-            <a href="#" class="button1">Buy Now!</a>
-            <a href="#" class="button1">More Info</a>
-          </div>
-          <div class="grid-item">
-            <img src="./assests/image.jpg" alt="Feature 2">
-            <h2>Feature Label</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-            <a href="#" class="button1">Buy Now!</a>
-            <a href="#" class="button1">More Info</a>
-          </div>
-          <div class="grid-item">
-            <img src="./assests/image.jpg" alt="Feature 3">
-            <h2>Feature Label</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-            <a href="#" class="button1">Buy Now!</a>
-            <a href="#" class="button1">More Info</a>
-          </div>
-          <div class="grid-item">
-            <img src="./assests/image.jpg" alt="Feature 4">
-            <h2>Feature Label</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-            <a href="#" class="button1">Buy Now!</a>
-            <a href="#" class="button1">More Info</a>
-          </div>
+<body>
+    <!-- Header Section -->
+    <header class="topbar hide">
+        <div class="toprow">
+
+            <button class="menu-btn" type="button" title="Toggle menu">
+                <svg fill="#000000" width="24px" height="24px" viewBox="0 0 32 32" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title>bars</title>
+                    <path
+                        d="M2 9.249h28c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0h-28c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0zM30 14.75h-28c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h28c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0zM30 22.75h-28c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h28c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0z">
+                    </path>
+                </svg>
+            </button>
         </div>
-       </section>
+
+        <ul class="topnav navbar">
+            <li>
+                <a href="#" class="navitems">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navitems">
+                    Services
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navitems">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="current">
+        <div class="heading">
+            <div class="innerheading">
+                <h2>Page Heading</h2>
+                <p>Secondary text</p>
+            </div>
+
+            <div class="posts">
+                <div class="card">
+                    <div class="innercard">
+                        <!-- <img src="" alt=""> -->
+                        <span>image</span>
+                    </div>
+
+                    <div class="carditems">
+                        <h5>Project Name</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sequi cupiditate,
+                            blanditiis est eaque .....</p>
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="innercard">
+                        <!-- <img src="" alt=""> -->
+                        <span>image</span>
+                    </div>
+
+                    <div class="carditems">
+                        <h5>Project Name</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sequi cupiditate,
+                            blanditiis est eaque .....</p>
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="innercard">
+                        <!-- <img src="" alt=""> -->
+                        <span>image</span>
+                    </div>
+
+                    <div class="carditems">
+                        <h5>Project Name</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sequi cupiditate,
+                            blanditiis est eaque .....</p>
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="innercard">
+                        <!-- <img src="" alt=""> -->
+                        <span>image</span>
+                    </div>
+
+                    <div class="carditems">
+                        <h5>Project Name</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sequi cupiditate,
+                            blanditiis est eaque .....</p>
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="innercard">
+                        <!-- <img src="" alt=""> -->
+                        <span>image</span>
+                    </div>
+
+                    <div class="carditems">
+                        <h5>Project Name</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sequi cupiditate,
+                            blanditiis est eaque .....</p>
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="innercard">
+                        <!-- <img src="" alt=""> -->
+                        <span>image</span>
+                    </div>
+
+                    <div class="carditems">
+                        <h5>Project Name</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sequi cupiditate,
+                            blanditiis est eaque .....</p>
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="innercard">
+                        <img src="./assests/image.jpg" alt=""> 
+                        <span>image</span>
+                    </div>
+
+                    <div class="carditems">
+                        <h5>Project Name</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sequi cupiditate,
+                            blanditiis est eaque .....</p>
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="innercard">
+                        <!-- <img src="" alt=""> -->
+                        <span>image</span>
+                    </div>
+
+                    <div class="carditems">
+                        <h5>Project Name</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sequi cupiditate,
+                            blanditiis est eaque .....</p>
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="innercard">
+                        <!-- <img src="" alt=""> -->
+                        <span>image</span>
+                    </div>
+
+                    <div class="carditems">
+                        <h5>Project Name</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sequi cupiditate,
+                            blanditiis est eaque .....</p>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <footer class="footer">
+                <p>Copyright &copy; Your website 2014</p>
+            </footer>
+        </div>
     </main>
+    <script src="./script.js"></script>
 </body>
+
 </html>
